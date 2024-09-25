@@ -47,6 +47,7 @@ Follow these steps to set up the project on your system:
 
 1. **Right-click on the DSDV project** in the OMNeT++ IDE.
 2. Select **Build Project**.
+3. **Check out for (Part 2)[https://github.com/Nicsetty/iNet-add-on] to get additional configured files for iNet framework :)**
 
 ## How to Run the Simulation
 
