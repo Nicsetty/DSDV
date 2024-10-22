@@ -1,16 +1,24 @@
 ## AODV, GPSR and DSDV Routing Protocol in OMNeT++
 
 ## Project Overview
+# Routing Protocols for MANETs in OMNeT++
 
-This repository contains the implementation of the **Destination-Sequenced Distance-Vector (DSDV)** routing protocol in OMNeT++. DSDV is a proactive routing protocol designed for Mobile Ad-hoc Networks (MANETs). It improves the distance-vector routing protocol by using sequence numbers to prevent routing loops and ensure reliable routing information.
+This repository contains the implementation of three routing protocols for Mobile Ad-hoc Networks (MANETs) in OMNeT++: **Destination-Sequenced Distance-Vector (DSDV)**, **Ad hoc On-Demand Distance Vector (AODV)**, and **Greedy Perimeter Stateless Routing (GPSR)**.
 
-### Features:
-- Simulation of DSDV routing protocol in OMNeT++.
-- Support for multi-hop wireless communication in MANET environments.
-- Sequence numbers to guarantee loop-free routing.
-- Performance evaluation in terms of network parameters like node mobility and traffic load.
+## Project Overview
 
-## Prerequisites
+- **DSDV**: A proactive routing protocol that maintains up-to-date routing information by periodically exchanging routing tables. It uses sequence numbers to prevent routing loops and ensure reliable routing.
+
+- **AODV**: An on-demand routing protocol that establishes routes only when needed, minimizing overhead in dynamic networks.
+
+- **GPSR**: A geographic routing protocol that uses location information to forward packets efficiently, utilizing greedy forwarding and perimeter routing.
+
+## Key Features
+
+- **Proactive Routing (DSDV)**: Always available routes with periodic updates.
+- **On-Demand Routing (AODV)**: Reduces control overhead by creating routes as needed.
+- **Geographic Forwarding (GPSR)**: Efficient packet delivery based on location information.
+
 
 You need to install the following tools to run this project:
 
@@ -56,12 +64,6 @@ Follow these steps to set up the project on your system:
 3. Select **Run as OMNeT++ Simulation**.
 4. View the results and performance metrics in the simulation window.
 
-## Simulation Parameters
-
-- **Node Count**: Defines the number of nodes in the MANET.
-- **Mobility Model**: Implements random waypoint mobility for MANET simulations.
-- **Traffic Model**: Constant bit rate (CBR) or user-defined traffic.
-- **Routing Tables**: Automatically updated based on DSDV logic.
 
 ## Sample simulation image
 ![dsdvv output](https://github.com/user-attachments/assets/5b383db4-7021-4b6d-9a70-9e2665e540d4)
