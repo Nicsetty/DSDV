@@ -1,4 +1,4 @@
-##AODV, GPSR and DSDV Routing Protocol in OMNeT++
+## AODV, GPSR and DSDV Routing Protocol in OMNeT++
 
 ## Project Overview
 
@@ -63,6 +63,6 @@ Follow these steps to set up the project on your system:
 - **Traffic Model**: Constant bit rate (CBR) or user-defined traffic.
 - **Routing Tables**: Automatically updated based on DSDV logic.
 
-## Output
+## Sample simulation image
 ![dsdvv output](https://github.com/user-attachments/assets/5b383db4-7021-4b6d-9a70-9e2665e540d4)
 
