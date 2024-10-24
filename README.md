@@ -60,7 +60,7 @@ Follow these steps to set up the project on your system:
 ## How to Run the Simulation
 
 1. After building the project, open the OMNeT++ IDE.
-2. **Right-click on the `omnetpp.ini` file** inside the DSDV project directory.
+2. **Right-click on the `omnetpp.ini` file** inside the project directory.
 3. Select **Run as OMNeT++ Simulation**.
 4. View the results and performance metrics in the simulation window.
 
